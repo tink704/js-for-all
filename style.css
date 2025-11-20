@@ -1,0 +1,12 @@
+button{
+    background-color: gold;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(244, 212, 36);
+}
+button:active{
+    background-color: rgb(255, 228, 52);
+}
