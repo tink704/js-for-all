@@ -1,0 +1,45 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background and font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered card */
+.container {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 350px;
+}
+
+/* Headings */
+h1 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+/* Result text */
+#p1 {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  border-radius: 15px;
+}
